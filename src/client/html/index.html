@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <title>Mystic Arcade</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="shortcut icon" href="/assets/icon64.png">
+      <meta property="og:title" content="Mystic Arcade">
+      <meta property="og:image" content="/assets/icon1200.png">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58664433-3"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'UA-58664433-3');
+      </script>
+    </head>
+    <body>
+      <canvas id="game-canvas"></canvas>
+      <div id="play-menu" class="hidden">
+        <h1>Mystic Arcade</h1>
+        <p>
+          Eliminate Other Players to Gain Gold<br>
+          Recall (b) to leave with your gold (save to scoreboard)<br>
+          exiting the window will reset current gold, accounts in the works
+          <br />
+          WASD: Move<br>
+          MOUSE: aim<br>
+          Left Click: shoot<br>
+          SPACE: dash<br>
+          b: recall (exit game with gold, saves to leaderboard)<br>
+          recalling takes 6 seconds and you are unable to move
+        </p>
+        <input type="text" id="username-input" placeholder="Username" maxlength='12'/>
+        <button id="play-button">PLAY</button>
+        <p>
+          <br>CHANGE LOG<br>
+          Fixed Leaderboard, Fixed fireball looking glitchy,<br>
+          Drew most colliders in lower map,<br>
+          various bug fixes
+        </p>
+      </div>
+      <div id="disconnect-modal" class="hidden">
+        <div>
+          <h2>Disconnected from Server </h2>
+          <hr />
+          <button id="reconnect-button">RECONNECT</button>
+        </div>
+      </div>
+    </body>
+  </body>
+</html>
