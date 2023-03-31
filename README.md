@@ -1,6 +1,6 @@
 # Multiplayer Browser Based Game
 
-This repository is outdated - the current one has to be kept private for reasons related to licensing.
+This repository is outdated - the current one has to be kept private for reasons related to licensing.  I'll try to keep this one updated :D
 
 Built using Phaser3 and Google Firebase.  Multiplayer is done by updating player positional data live in a realtime database.  Maps are stored in tileset images and compiled at launch using JSON data exported from the Tiled Map Editor.  Module-bundler (Webpack) included.
 
